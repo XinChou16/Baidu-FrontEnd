@@ -1,0 +1,28 @@
+.team{
+	margin: 20px;
+}
+.content{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: cyan;
+}
+.main{
+    margin: 0 120px 0 200px /*与margin偏移的像素对应*/;
+}
+.name{
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 100%;
+    margin-left: -100%;
+    background: yellow;
+}
+.person{
+    float: left;
+    position: relative;
+    width: 120px;
+    height: 100%;
+    margin-left: -120px;/**/
+    background: yellow;
+}

@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+}
+.team{
+	padding: 20px;
+	background: #eee;
+	margin: 0 auto;
+}
+h2{
+	margin: 15px 0 ;
+}
+h3{
+	margin: 15px 0 ;
+}
+/*左列*/
+.left{
+	float: left;/*设置成左浮动,浮动默认不脱离文档流*/
+	width: 240px;
+	height: 100%;
+	background: #fff;
+	border: 1px solid #999;
+	margin-right: 20px;
+}
+.left img{
+	width: 80px;
+	height: 80px;
+	padding: 20px 10px 20px 20px;
+}
+.left span{
+	display: block;
+	float: right;
+	padding: 20px;
+}
+/*中间*/
+.middle{
+	height: 100%;
+	margin: 0 20px;/*消除文档流*/
+	padding: 20px;/*内容间距*/
+	background: #fff;
+	border: 1px solid #999;
+	overflow: auto;/*脱离文档流的影响*/
+}
+.middle p{
+	text-indent: 2em;
+	line-height: 1.8;
+}
+/*右列*/
+.right{
+	float: right;/*设置成右浮动,浮动默认不脱离文档流*/
+	width: 120px;
+	height: 100%;
+	padding: 20px;/*盒子内容边距*/
+	margin-left: 20px;
+	background: #fff;
+	border: 1px solid #999;
+}
+.logo{
+	width: 80px;
+	margin-bottom: 20px;
+}
+.logo img{
+	width: 80px;
+	height: 80px;
+}
+.right ul li{
+	list-style: none;
+	margin-left: -20px;/*消除小圆点的漂移*/
+}

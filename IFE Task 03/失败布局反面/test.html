@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+        .middle{
+            float: left;
+            width: 100%;
+            height: 50px;
+            background: cyan;
+        }
+        .main{
+            margin: 0 200px 0 150px /*与margin偏移的像素对应*/;
+        }
+        .left{
+            float: left;
+            position: relative;
+            width: 150px;
+            height: 50px;
+            margin-left: -100%;
+            background: yellow;
+        }
+        .right{
+            float: left;
+            position: relative;
+            width: 200px;
+            height: 50px;
+            margin-left: -200px;/**/
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+<div class="grid">
+    <div class="middle">
+        <div class="main">
+            <span>middle、哈尔滨、北京、重庆、贵阳、深圳、昆明、杭州、大连和广州。济南和哈尔滨超越北京，成为全国最堵的两个城市。其中，济南是2016年年度晚高峰最堵的城市，可以说是“下班最</span>
+        </div>
+    </div>
+    <div class="left"><span>left</span></div>
+    <div class="right"><span>right</span></div>
+</div>
+</html>
