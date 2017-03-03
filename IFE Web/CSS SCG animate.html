@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 动画</title>
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" preserveAspectRadio="xMidYMid meet">
+        <!--蓝天-->
+        <rect x="0" y="0" width="1000" height="500" style="fill:#80A9EC;fill-opacity:1;">
+            <animate attributeName="fill-opacity" attributeType="CSS" begin="0s" dur="5s" values="1;0.4;1" repeatCount="indefinite"></animate>
+        </rect>
+        <!--绿地-->
+        <path d="M0,350 L0,500 1000,500 1000,380 C700,280 400,380 0,350" style="fill:#3BB374;"></path>
+        <!--正面的墙-->
+        <rect x="600" y="270" width="150" height="100" style="fill:#C6EA86"></rect>
+        <!--门-->
+        <path d="M690,310 v60 h40 v-60 A20 20 0 1 0 690 310" style="stroke:#fff;fill:none;"></path>
+        <!--侧面的墙-->
+        <path d="M750,270 v100 l75,-10 v-100 l-35,-40 -40,50" style="fill:#ddd"></path>
+        <!--屋顶-->
+        <path d="M600,270 h150 l40-50 h-150 l-40 50" style="fill:#444;"></path>
+        <!--太阳-->
+        <circle cx="0" cy="0" r="30" style="fill:#EFEF41">
+            <animateMotion path="M-100,100 Q500,0 1100,100" begin="0s" dur="5s" repeatCount="indefinite"></animateMotion>
+        </circle>
+    </svg>
+</body>
+
+</html>
